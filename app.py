@@ -1,5 +1,11 @@
 def multiply(x, y):
     return x * y
+  
+def add(x, y):
+    return x + y
+
+def subtract(x, y):
+  return x - y
 
 def calculate(first_number, second_number, operator):
     # This function creates a result based on the math operator that is being passed in
