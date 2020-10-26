@@ -1,11 +1,22 @@
 def multiply(x, y):
     return x * y
-
+  
 def add(x, y):
     return x + y
 
- def subtract(x, y):
-    return x - y   
+def subtract(x, y):
+  return x - y
+
+def calculate(first_number, second_number, operator):
+    # This function creates a result based on the math operator that is being passed in
+    if operator == '+':
+        return add(first_number, second_number)
+    if operator == '-':
+        return subtract(first_number, second_number)
+    if operator == '*':
+        return multiply(first_number, second_number)
+    if operator == '/':
+        return divide(first_number, second_number)
 
 if __name__ == '__main__':
     # Introduce app
