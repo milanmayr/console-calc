@@ -7,6 +7,9 @@ def add(x, y):
 def subtract(x, y):
   return x - y
 
+def divide(x, y):
+    return x / y
+
 def calculate(first_number, second_number, operator):
     # This function creates a result based on the math operator that is being passed in
     if operator == '+':
