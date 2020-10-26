@@ -1,3 +1,7 @@
+def multiply(x, y):
+    return x * y
+
+
 if __name__ == '__main__':
     # Introduce app
     print("This app is a super basic calculator.")
